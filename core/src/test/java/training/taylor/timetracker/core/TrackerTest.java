@@ -30,6 +30,6 @@ public class TrackerTest {
         entry.setRate(80.0f);
         entry.setTime(3);
         tracker.add(entry);
-        assertTrue(-1 > 0);
+        assertTrue(tracker.size() > 0);
     }
 }
